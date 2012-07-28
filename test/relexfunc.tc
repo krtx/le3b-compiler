@@ -1,0 +1,22 @@
+int sign(int x)
+{
+  local int odd(int x)
+  {
+    int tmp;
+
+    if (x == 1) return 1;
+    tmp = even(x - 1);
+    if (tmp == 0) return 1;
+    else return 0;
+  }
+  local int even(int x)
+  {
+    int tmp;
+
+    if (x == 0) return 1;
+    tmp = odd(x - 1);
+    if (tmp == 0) return 1;
+    else return 0;
+  }
+  return odd(x);
+}

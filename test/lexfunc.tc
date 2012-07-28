@@ -1,0 +1,10 @@
+int baa()
+{
+  int x;
+
+  x = 2;
+  local int foo (int y) {
+    return x + y;
+  }
+  foo(10);
+}
