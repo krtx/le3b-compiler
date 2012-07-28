@@ -1,13 +1,13 @@
-# 概要
+## 概要
 
 http://ecs.kuis.kyoto-u.ac.jp/isle/le3b/index.html
 
-# ビルド
+## ビルド
 
 ソースのあるディレクトリで
 
  $ ocamlbuild main.byte
 
-# 実行
+## 実行
 
  $ ./main.byte < source.tc > source.asm
